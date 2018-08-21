@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar renders correctly 1`] = `
+<div
+  className="react-flexible-progressbar"
+  style={
+    Object {
+      "margin": undefined,
+      "width": 200,
+    }
+  }
+>
+  <div
+    className="rf-progressbar"
+    style={
+      Object {
+        "height": 10,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    />
+  </div>
+  <div
+    className="rf-progress-txt"
+  >
+    Progress:
+     
+    10%
+  </div>
+</div>
+`;
+
+exports[`ProgressBar renders correctly without percentage text 1`] = `
+<div
+  className="react-flexible-progressbar"
+  style={
+    Object {
+      "margin": undefined,
+      "width": 200,
+    }
+  }
+>
+  <div
+    className="rf-progressbar"
+    style={
+      Object {
+        "height": 10,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    />
+  </div>
+</div>
+`;
