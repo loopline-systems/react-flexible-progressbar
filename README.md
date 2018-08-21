@@ -1,11 +1,4 @@
-# react-flexible-progressbar <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
-[![Build Status][travis-svg]][travis-url]
-[![dependency status][deps-svg]][deps-url]
-[![dev dependency status][dev-deps-svg]][dev-deps-url]
-[![License][license-image]][license-url]
-[![Downloads][downloads-image]][downloads-url]
-
-[![npm badge][npm-badge-png]][package-url]
+# react-flexible-progressbar
 
 Customizable lightweight progress bar using TypesScript and Ract
 
