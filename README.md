@@ -1,10 +1,13 @@
 # react-flexible-progressbar
 
-Customizable lightweight progress bar using TypesScript and Ract
+Customizable lightweight progress bar using TypesScript and React
+
+[![License](https://img.shields.io/packagist/l/loopline-systems/react-flexible-progressbar.svg)](http://opensource.org/licenses/MIT)
+[![Build Status](http://img.shields.io/travis/loopline-systems/react-flexible-progressbar.svg)](https://travis-ci.org/loopline-systems/react-flexible-progressbar)
 
 ## Demo
 
-For example of the progressbar, go to https://github.com/loopline-systems/react-flexible-progressbar.
+For example of the progressbar, go to https://loopline-systems.github.io/react-flexible-progressbar.
 
 OR
 
