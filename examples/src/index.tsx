@@ -21,7 +21,7 @@ class App extends React.Component<{}, {}> {
 
   render() {
     return(
-      <ProgressBar width={200} progress={this.state.progress} showPercentage />
+      <ProgressBar width={300} margin="40vh auto" progress={this.state.progress} showPercentage />
     );
   }
 }

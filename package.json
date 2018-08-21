@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Progress bar with customisable styles",
   "main": "dist/ProgressBar.js",
-  "module": "dist/index.es.js",
   "browserslist": "last 2 versions",
   "scripts": {
     "tsc": "tsc -d",

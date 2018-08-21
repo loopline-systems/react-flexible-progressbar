@@ -1,9 +1,6 @@
 # react-flexible-progressbar
 
-Customizable lightweight progress bar using TypesScript and React
-
-[![License](https://img.shields.io/packagist/l/loopline-systems/react-flexible-progressbar.svg)](http://opensource.org/licenses/MIT)
-[![Build Status](http://img.shields.io/travis/loopline-systems/react-flexible-progressbar.svg)](https://travis-ci.org/loopline-systems/react-flexible-progressbar)
+Customizable lightweight progress bar using TypesScript and React 16
 
 ## Demo
 
@@ -26,11 +23,10 @@ To run that demo on your own computer:
 ### Import in component
 ```
 import ProgressBar from 'react-flexible-progressbar'
-import 'react-flexible-progressbar/progressBar.css'
+import 'react-flexible-progressbar/dist/progressBar.css'
 ```
 
 ### Supported properties
-
 ```
 {
   width?: number | string;
