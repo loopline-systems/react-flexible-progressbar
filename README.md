@@ -1,5 +1,15 @@
 # react-flexible-progressbar
 
+[![License](https://img.shields.io/npm/l/react-flexible-progressbar.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+![Version](https://img.shields.io/npm/v/react-flexible-progressbar.svg?style=flat-square)
+![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/react-flexible-progressbar.svg?style=flat-square)
+![npm type definitions](https://img.shields.io/npm/types/react-flexible-progressbar.svg?style=flat-square)
+[![Build Status](http://img.shields.io/travis/loopline-systems/react-flexible-progressbar.svg?style=flat-square)](https://travis-ci.com/loopline-systems/react-flexible-progressbar)
+[![Coverage Status](https://img.shields.io/coveralls/loopline-systems/react-flexible-progressbar.svg?style=flat-square)](https://coveralls.io/github/loopline-systems/react-flexible-progressbar?branch=master)
+
+<!-- ![Version](https://img.shields.io/npm/dt/react-flexible-progressbar.svg?style=flat-square) -->
+
+
 Customizable lightweight progress bar using TypesScript and React 16
 
 ## Demo

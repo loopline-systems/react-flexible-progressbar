@@ -8,7 +8,7 @@
     "tsc": "tsc -d",
     "sass": "node-sass --output-style=compressed src/progressBar.scss > dist/progressBar.css",
     "lint": "tslint -p .",
-    "test": "jest",
+    "test": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "start": "webpack-dev-server --progress",
     "build": "webpack -p",
     "deploy": "gh-pages -d examples/dist",
@@ -22,6 +22,11 @@
   ],
   "author": "Alexander Yamkov",
   "license": "MIT",
+  "homepage": "https://github.com/loopline-systems/react-flexible-progressbar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loopline-systems/react-flexible-progressbar.git"
+  },
   "peerDependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
@@ -30,6 +35,7 @@
     "@types/jest": "^23.3.1",
     "@types/react": "^16.4.11",
     "@types/react-dom": "^16.0.7",
+    "coveralls": "^3.0.2",
     "css-loader": "^1.0.0",
     "enzyme": "^3.4.4",
     "enzyme-adapter-react-16": "^1.2.0",
