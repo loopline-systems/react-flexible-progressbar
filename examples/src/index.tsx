@@ -3,7 +3,11 @@ import ReactDOM from 'react-dom';
 import ProgressBar from '../../src/ProgressBar';
 import '../../src/ProgressBar.scss';
 
-class App extends React.Component<{}, {}> {
+interface State {
+  progress: number;
+}
+
+class App extends React.Component<{}, State> {
   state = {
     progress: 0,
   };

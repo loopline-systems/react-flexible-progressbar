@@ -1,9 +1,9 @@
 import React from 'react';
 import Enzyme, { shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
+import toJson from 'enzyme-to-json';
 
 import ProgressBar from '../src/ProgressBar';
-import toJson from 'enzyme-to-json';
 
 describe('ProgressBar', () => {
   beforeAll(() => {
@@ -12,14 +12,14 @@ describe('ProgressBar', () => {
 
   test('renders correctly', () => {
     const component = shallow(
-      <ProgressBar width={200} progress={10} showPercentage />
+      <ProgressBar width={200} progress={10} showPercentage />,
     );
     expect(toJson(component)).toMatchSnapshot();
   });
 
   test('renders correctly without percentage text', () => {
     const component = shallow(
-      <ProgressBar width={200} progress={10} />
+      <ProgressBar width={200} progress={10} />,
     );
     expect(toJson(component)).toMatchSnapshot();
   });

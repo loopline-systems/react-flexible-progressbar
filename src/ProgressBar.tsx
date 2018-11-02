@@ -9,14 +9,14 @@ interface Props {
   showPercentage?: boolean;
 }
 
-const ProgressBar = ({
+const ProgressBar: React.SFC<Props> = ({
   width,
   height = 10,
   margin,
   progress = 0,
   progressTxt = 'Progress:',
   showPercentage,
-}: Props) => (
+}) => (
   <div className="react-flexible-progressbar" style={{ width, margin }}>
     <div className="rf-progressbar" style={{ height }}>
       <div style={{ width: `${progress}%` }} />
