@@ -4,7 +4,11 @@
     "tslint:recommended",
     "tslint-react"
   ],
-  "jsRules": {},
+  "jsRules": {
+    "quotemark": [true, "single", "jsx-double", "avoid-escape", "avoid-template"],
+    "object-literal-sort-keys": false,
+    "variable-name": [true, "ban-keywords"]
+  },
   "rules": {
     "jsx-no-multiline-js": false,
     "jsx-boolean-value": [true, "never"],
@@ -12,6 +16,7 @@
     "jsx-key": true,
     "jsx-use-translation-function": [true, "allow-punctuation", "allow-htmlentities"],
     "jsx-wrap-multiline": true,
+    "jsx-no-lambda": true,
     "jsx-no-bind": true,
     "quotemark": [true, "single", "jsx-double", "avoid-escape", "avoid-template"],
     "interface-name": false,
@@ -48,7 +53,8 @@
         "typeLiterals": "always"
       },
       "esSpecCompliant": true
-    }]
+    }],
+    "max-line-length": [true, { "limit": 110, "ignore-pattern": "^import |`(.+)`" }]
   },
   "rulesDirectory": []
 }

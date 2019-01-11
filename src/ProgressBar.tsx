@@ -9,7 +9,7 @@ interface Props {
   showPercentage?: boolean;
 }
 
-const ProgressBar: React.SFC<Props> = ({
+const ProgressBar: React.FC<Props> = React.memo(({
   width,
   height = 10,
   margin,
@@ -25,6 +25,6 @@ const ProgressBar: React.SFC<Props> = ({
       <div className="rf-progress-txt">{progressTxt} {`${progress}%`}</div>
     )}
   </div>
-);
+));
 
 export default ProgressBar;
