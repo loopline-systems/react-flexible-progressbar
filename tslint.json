@@ -2,7 +2,8 @@
   "defaultSeverity": "error",
   "extends": [
     "tslint:recommended",
-    "tslint-react"
+    "tslint-react",
+    "tslint-eslint-rules"
   ],
   "jsRules": {
     "quotemark": [true, "single", "jsx-double", "avoid-escape", "avoid-template"],
@@ -37,7 +38,6 @@
       "check-type-operator",
       "check-preblock"
     ],
-    "no-unused-variable": true,
     "object-curly-spacing": [true, "always"],
     "array-bracket-spacing": [true, "never"],
     "block-spacing": true,
