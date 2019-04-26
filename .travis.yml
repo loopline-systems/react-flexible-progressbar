@@ -1,5 +1,4 @@
 language: node_js
-before_script: npm rebuild node-sass
 node_js:
     - "stable"
 cache:
