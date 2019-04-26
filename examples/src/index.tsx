@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import ProgressBar from '../../src/ProgressBar';
 import '../../src/ProgressBar.scss';
 
